@@ -1,6 +1,6 @@
-package Tests.Optionals;
+package tests.optionals;
 
-import Practicas.Optionals.OptionalsMain;
+import practicas.Optionals.OptionalsMain;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 

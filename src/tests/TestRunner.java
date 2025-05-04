@@ -1,8 +1,8 @@
-package Tests;
+package tests;
 
-import Tests.Optionals.GetStringLengthTests;
-import Tests.Optionals.ParseIntegerTests;
-import Tests.StringListTests.StringListTests;
+import tests.optionals.GetStringLengthTests;
+import tests.optionals.ParseIntegerTests;
+import tests.string_list_tests.StringListTests;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;

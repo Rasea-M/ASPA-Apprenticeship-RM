@@ -1,4 +1,4 @@
-package Practicas.Optionals;
+package practicas.Optionals;
 
 import java.util.Optional;
 

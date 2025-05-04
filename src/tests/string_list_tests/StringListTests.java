@@ -1,10 +1,10 @@
-package Tests.StringListTests;
+package tests.string_list_tests;
 
 import java.util.List;
 
-import Practicas.Referenced.ReferencedMain;
-import Practicas.Streams.StreamsMain;
-import Practicas.Lambda.LambdaMain;
+import practicas.Referenced.ReferencedMain;
+import practicas.Streams.StreamsMain;
+import practicas.Lambda.LambdaMain;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
