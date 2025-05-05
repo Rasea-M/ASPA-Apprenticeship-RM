@@ -20,6 +20,10 @@ public class IntegerCalculator implements Calculator<Integer> {
 
     @Override
     public Integer divide(Integer dividend, Integer divisor) throws IllegalArgumentException {
-        return dividend/divisor;
+        try {
+            return dividend/divisor;
+        } catch (ArithmeticException | NullPointerException e) {
+            throw new IllegalArgumentException();
+        }
     }
 }

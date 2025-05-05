@@ -22,11 +22,11 @@ public class IntegerCalculatorUnitTest {
         assertEquals(Integer.valueOf(0), calc.sum());
     }
 
-//    @Test
-//    //Ask if it's normal to have to add null checks to every single method
-//    public void testNull() {
-//        assertNull(calc.sum((Integer) null));
-//    }
+    @Test
+    //Doesn't, ask if it should.
+    public void testNull() {
+        assertThrows(IllegalArgumentException.class, () -> calc.sum(null));
+    }
 
     @Test
     public void testAddNegatives() {
@@ -69,5 +69,11 @@ public class IntegerCalculatorUnitTest {
         assertEquals(Integer.valueOf(6), calc.divide(6, 1));
         assertEquals(Integer.valueOf(6), calc.divide(12, 2));
         assertEquals(Integer.valueOf(6), calc.divide(13, 2));
+    }
+
+    @Test
+    public void testDivideThrowsException() {
+        assertThrows(IllegalArgumentException.class, () -> calc.divide(2,0));
+        assertThrows(IllegalArgumentException.class, () -> calc.divide(null,2));
     }
 }
