@@ -1,4 +1,4 @@
-package main.practicas.InstanceOf;
+package main.practicas_day1.InstanceOf;
 
 import java.io.Serializable;
 

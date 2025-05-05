@@ -2,9 +2,9 @@ package tests.string_list_tests;
 
 import java.util.List;
 
-import main.practicas.Referenced.ReferencedMain;
-import main.practicas.Streams.StreamsMain;
-import main.practicas.Lambda.LambdaMain;
+import main.practicas_day1.Referenced.ReferencedMain;
+import main.practicas_day1.Streams.StreamsMain;
+import main.practicas_day1.Lambda.LambdaMain;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

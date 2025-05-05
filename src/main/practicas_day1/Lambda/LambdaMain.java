@@ -1,4 +1,4 @@
-package main.practicas.Lambda;
+package main.practicas_day1.Lambda;
 
 import java.util.Comparator;
 import java.util.List;

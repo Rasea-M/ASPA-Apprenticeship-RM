@@ -1,4 +1,4 @@
-package main.practicas.Streams;
+package main.practicas_day1.Streams;
 
 import java.util.List;
 

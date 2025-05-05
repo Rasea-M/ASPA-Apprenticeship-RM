@@ -1,4 +1,4 @@
-package main.practicas.Multiline;
+package main.practicas_day1.Multiline;
 
 public class MultilineMain {
     //5.1

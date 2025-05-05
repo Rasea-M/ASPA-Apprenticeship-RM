@@ -1,4 +1,4 @@
-package main.practicas.Referenced;
+package main.practicas_day1.Referenced;
 
 import java.util.List;
 
