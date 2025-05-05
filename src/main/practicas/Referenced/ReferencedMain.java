@@ -1,4 +1,4 @@
-package practicas.Referenced;
+package main.practicas.Referenced;
 
 import java.util.List;
 
